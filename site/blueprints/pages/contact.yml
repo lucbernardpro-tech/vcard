@@ -1,0 +1,84 @@
+title: Contact
+
+num: date
+
+icon: 👤
+
+status:
+  draft:
+    label: Brouillon
+    text: Le contact n'est pas encore publié.
+  unlisted:
+    label: En revue
+    text: Le contact est en ligne mais non listé.
+  listed:
+    label: Publié
+    text: Le contact est en ligne et listé.
+
+columns:
+  - width: 2/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          emailcontact:
+            label: Email
+            type: email
+          prenomcontact:
+            label: Prénom
+            type: text
+          nomcontact:
+            label: Nom
+            type: text
+          genrecontact:
+            label: Genre
+            type: text
+          orgacontact:
+            label: Organisation
+            type: text
+          titlecontact:
+            label: Poste
+            type: text
+          sectioncontact:
+            label: Service
+            type: text
+          mobilecontact:
+            label: Mobile
+            type: tel
+          fixecontact:
+            label: Fixe
+            type: tel
+          adrprocontact:
+            label: Adresse pro
+            type: text
+          villeprocontact:
+            label: Ville
+            type: text
+          cpprocontact:
+            label: Code postal
+            type: text
+          payscontact:
+            label: Pays
+            type: text
+          siteinternetcontact:
+            label: Site internet
+            type: link
+          linkedincontact:
+            label: LinkedIn
+            type: link
+          instagramcontact:
+            label: Instagram
+            type: link
+          facebookcontact:
+            label: Facebook
+            type: link
+          youtubecontact:
+            label: YouTube
+            type: link
+          downloadscontact:
+            label: Photo
+            type: files
+            multiple: false
+          rdvcontact:
+            label: Module de prise de rendez-vous (URL)
+            type: text

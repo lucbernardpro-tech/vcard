@@ -1,0 +1,25 @@
+title: Contacts
+
+icon: 📋
+
+columns:
+  - width: 1/3
+    sections:
+      drafts:
+        extends: sections/contacts
+        label: Brouillons
+        status: draft
+
+      unlisted:
+        extends: sections/contacts
+        label: En revue
+        status: unlisted
+
+  - width: 2/3
+    sections:
+      listed:
+        extends: sections/contacts
+        label: Publiés
+        status: listed
+        size: small
+        layout: cards

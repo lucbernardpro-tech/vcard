@@ -1,0 +1,9 @@
+type: pages
+label: Contacts
+template: contact
+empty: Aucun contact pour l'instant
+sortBy: date desc
+image:
+  query: page.downloadscontact.toFile
+  cover: true
+  ratio: 1/1
